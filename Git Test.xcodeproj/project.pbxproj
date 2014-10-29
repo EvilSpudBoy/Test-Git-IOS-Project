@@ -21,6 +21,7 @@
 		35DD1ACC1A015588001AEB8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35DD1AAE1A015588001AEB8F /* UIKit.framework */; };
 		35DD1AD41A015588001AEB8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35DD1AD21A015588001AEB8F /* InfoPlist.strings */; };
 		35DD1AD61A015588001AEB8F /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DD1AD51A015588001AEB8F /* Git_TestTests.m */; };
+		35DD1AE41A015E0C001AEB8F /* MWSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DD1AE31A015E0C001AEB8F /* MWSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		35DD1AD11A015588001AEB8F /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		35DD1AD31A015588001AEB8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		35DD1AD51A015588001AEB8F /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		35DD1AE21A015E0C001AEB8F /* MWSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWSTest.h; sourceTree = "<group>"; };
+		35DD1AE31A015E0C001AEB8F /* MWSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				35DD1ABC1A015588001AEB8F /* Main.storyboard */,
 				35DD1ABF1A015588001AEB8F /* MWSViewController.h */,
 				35DD1AC01A015588001AEB8F /* MWSViewController.m */,
+				35DD1AE21A015E0C001AEB8F /* MWSTest.h */,
+				35DD1AE31A015E0C001AEB8F /* MWSTest.m */,
 				35DD1AC21A015588001AEB8F /* Images.xcassets */,
 				35DD1AB11A015588001AEB8F /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				35DD1ABB1A015588001AEB8F /* MWSAppDelegate.m in Sources */,
 				35DD1AB71A015588001AEB8F /* main.m in Sources */,
 				35DD1AC11A015588001AEB8F /* MWSViewController.m in Sources */,
+				35DD1AE41A015E0C001AEB8F /* MWSTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
